@@ -4,41 +4,9 @@ import FooteLinkIcon from '../../assets/images/footerLink_icon.png'
 import FighterIcon from '../../assets/images/fighter-icon.png'
 import BLogo from '../../assets/images/binance-logo.png'
 import './Footer.css'
-const Link02: React.FC = () => {
-    return (
-        <FLink02B>
-        <StyledAbsoluteLinkB href="#" >Powered by Atom Foundation:</StyledAbsoluteLinkB> |
-        <StyledAbsoluteLinkB href="https://jointer.io" target="_blank">Jointer.io</StyledAbsoluteLinkB> |
-        <StyledAbsoluteLinkB href="#" >BSCbonus.com</StyledAbsoluteLinkB> |
-        <StyledAbsoluteLinkB href="#" >SmartSwap.exchange</StyledAbsoluteLinkB> |
-        <StyledAbsoluteLinkB href="#" >ZERO/1</StyledAbsoluteLinkB> |
-        <StyledAbsoluteLinkB href="#" >DegenSwap.io</StyledAbsoluteLinkB> |
-        <StyledAbsoluteLinkB href="#" >ElementZero.network</StyledAbsoluteLinkB> |
-        <StyledAbsoluteLinkB href="#" >Packey.insure</StyledAbsoluteLinkB> |
-        <StyledAbsoluteLinkB href="#" >Mass.investments</StyledAbsoluteLinkB>
-
-        </FLink02B>
-    )
-}
-
-const Link01: React.FC = () => {
-    return (
-      <FLink01B>
-        <StyledAbsoluteLinkA href="#" >List new token</StyledAbsoluteLinkA> |
-        <StyledAbsoluteLinkA href="#" >Upgrade to v2</StyledAbsoluteLinkA> |
-        <StyledAbsoluteLinkA href="#" >Voting</StyledAbsoluteLinkA> |
-        <StyledAbsoluteLinkA href="#" >Github</StyledAbsoluteLinkA> |
-        <StyledAbsoluteLinkA href="#" >Medium</StyledAbsoluteLinkA> |
-        <StyledAbsoluteLinkA href="#" >Telegram</StyledAbsoluteLinkA> |
-        <StyledAbsoluteLinkA href="#" >Twitter</StyledAbsoluteLinkA> |
-        <StyledAbsoluteLinkA href="#" >Discord</StyledAbsoluteLinkA> |
-        <StyledIcon01 href="#"></StyledIcon01>
-      </FLink01B>
-    )
-}
 
 const StyledIcon01 = styled.a`
-    cursor:pointer; 
+    cursor:pointer;
     text-decoration: none;
     width:25px;
     height:25px;
@@ -47,7 +15,7 @@ const StyledIcon01 = styled.a`
     background:url(${FooteLinkIcon}) 50% 50% no-repeat;
 `
 const StyledAbsoluteLinkA = styled.a`
-    cursor:pointer; 
+    cursor:pointer;
     text-decoration: none;
     color:#fff;
     font:normal 10px/16px "Press Start 2P", arial;
@@ -57,7 +25,7 @@ const StyledAbsoluteLinkA = styled.a`
     }
 `
 const StyledAbsoluteLinkB = styled.a`
-    cursor:pointer; 
+    cursor:pointer;
     text-decoration: none;
     color:#fff;
     font:normal 12px/16px "IBM Plex Mono", arial;
@@ -71,7 +39,7 @@ const FooterFrame = styled.footer`
 
     background-color:#070707;
     width:100%;
-    height:100px; 
+    height:100px;
     margin-top:40px;
     display:flex;
     align-items:center;
@@ -89,7 +57,7 @@ const FooterFrame = styled.footer`
     @media (min-width: 768px) and (max-width: 991px){
         height:auto;
         padding:10px 10px 30px 10px;
-    } 
+    }
 `
 
 const JRLogo = styled.div`
@@ -139,11 +107,11 @@ const FooterBody = styled.div`
     position: fixed;
     left: 0;
     bottom: 0;
-    
+
 
 `
 const Footer: React.FC = () => {
-    
+
     return (
         <FooterBody>
             <FooterFrame>
@@ -151,8 +119,6 @@ const Footer: React.FC = () => {
                   <img style={{ position: 'absolute', left:10, top:-23}} src={FighterIcon} alt="Fighter" />
                 </JRLogo>
                 <FooterCbox>
-                    <Link01 />
-                    <Link02 />
                 </FooterCbox>
                 <BinanceLogo>
                     <BinanceLogoLink href="https://www.binance.org/en" target="_blank"><img src={BLogo} /> </BinanceLogoLink>
