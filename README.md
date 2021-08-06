@@ -1,24 +1,24 @@
-# BSCswap Interface
+# wolfswap Interface
 
-[![Tests](https://github.com/bscswap/bscswap-interface/workflows/Tests/badge.svg)](https://github.com/bscswap/bscswap-interface/actions?query=workflow%3ATests)
+[![Tests](https://github.com/wolfswap/wolfswap-interface/workflows/Tests/badge.svg)](https://github.com/wolfswap/wolfswap-interface/actions?query=workflow%3ATests)
 [![Styled With Prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://prettier.io/)
 
-An open source interface for BSCswap -- a protocol for decentralized exchange of Binance Smart Chain BEP20 tokens.
+An open source interface for wolfswap -- a protocol for decentralized exchange of Binance Smart Chain BEP20 tokens.
 
-- Website: [bscswap.com](https://bscswap.com/)
+- Website: [wolfswap.com](https://wolfswap.com/)
 - Docs: [uniswap.org/docs/](https://uniswap.org/docs/)
-- Twitter: [@BSCswapProtocol](https://twitter.com/BSCswapProtocol)
-- Email: [hyunsiklee@bscswap.com](mailto:hyunsiklee@bscswap.com)
-- Discord: [BSCswap](https://discord.gg/mCZSA3w)
+- Twitter: [@wolfswapProtocol](https://twitter.com/wolfswapProtocol)
+- Email: [hyunsiklee@wolfswap.com](mailto:admin@babywolfcoin.com)
+- Discord: [wolfswap](https://discord.gg/mCZSA3w)
 
-## Accessing the BSCswap Interface
+## Accessing the wolfswap Interface
 
-To access the BSCswap Interface, visit [bscswap.com](https://bscswap.com) which is hosted directly on gh-pages branch.
+To access the wolfswap Interface, visit [wolfswap.com](https://wolfswap.com) which is hosted directly on gh-pages branch.
 
 ## Listing a token
 
 Please see the
-[@bscswap/default-token-list](https://github.com/bscswap/default-token-list)
+[@wolfswap/default-token-list](https://github.com/wolfswap/default-token-list)
 repository.
 
 ## Development
@@ -44,7 +44,7 @@ To have the interface default to a different network when a wallet is not connec
 3. Change `REACT_APP_NETWORK_URL` to e.g. `"https://{YOUR_NETWORK_ID}.infura.io/v3/{YOUR_INFURA_KEY}"`
 
 Note that the interface only works on BSC testnets where both
-[BSCswap Factory & Router Contract](https://github.com/bscswap/contracts/tree/master/contracts) and
+[wolfswap Factory & Router Contract](https://github.com/wolfswap/contracts/tree/master/contracts) and
 [multicall](https://github.com/makerdao/multicall) are deployed.
 The interface will not work on other networks.
 
